@@ -37,7 +37,6 @@ public class FormController {
     public String saveForm(SignUpRequest signUpRequest){
 
         formService.saveForm(signUpRequest);
-        System.out.println(signUpRequest.toString());
 
         return "redirect:/";
     }
